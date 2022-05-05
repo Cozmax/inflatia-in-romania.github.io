@@ -1,0 +1,347 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: pink;
+	background-size:  cover;
+
+}
+@media only screen and (min-width: 1000px){
+
+.content-header {
+font-family: 'Josefin Sans', sans-serif;
+text-align: center;
+background-image:
+		linear-gradient(
+			rgba(0, 0, 0, 1),
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 1)
+		),
+		url(../imagini/imagine.jpg);
+background-size: cover;
+min-height: 90vh;
+line-height: 90vh;
+text-align: center;
+}
+
+.intro{
+	font-size: 50px;
+	display: inline-block;
+}
+
+.button-next {
+	min-height: 10vh;
+	transition:0.5s;
+	line-height: 5vh;
+}
+
+#arrow{
+	position: relative;
+	top: 3vh;
+	background-color: rgba(255, 255, 255, 0.5);
+	outline: none;
+	cursor: pointer;
+	overflow: hidden;
+	outline: none;
+	font-size: 30px;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-left-radius: 25%;
+	border-bottom-right-radius: 25%;
+	min-width: 3vw;
+
+}
+#text {
+	color: white;
+}
+#cursor {
+	display: inline-block;
+	width: 2px;
+	height: 50px;
+	background-color: white;
+	animation: blink .75s step-end infinite;
+}
+
+.title{
+	font-size: 50px;
+	margin-top: 40px;	
+	font-family: 'Oleo Script', cursive;
+}
+
+.content-center{
+	background-color: rgba(255, 255, 255, 0.75);
+	min-height: 120vh;
+}
+
+.content-center p {
+	font-family: 'Tapestry', cursive;
+}
+
+.informative-1{
+	position: relative;
+	left: 5vw;
+	bottom: 7vh;
+	max-width: 30%;
+	display: inline-block;
+	border-radius: 10px;
+	min-height: 55vh;
+	box-shadow: -6px 4px 10px 5px;
+	text-align: center;
+	margin-top: 100px;
+	margin: 30px 10px;
+	transition: 1s;
+}
+
+.informative-2{
+	position: relative;
+	left: 20vh;
+	top: 2vh;
+	border-radius: 10px;
+	min-height: 45vh;
+	box-shadow: 10px 4px 10px 5px;
+	text-align: center;
+	margin: 30px 10px;
+	min-width: 40%;
+	max-width: 50%;
+	display: inline-block;
+	transition: 1s;
+
+}
+
+.informative-3{
+	position: relative;
+	left: 2vw;
+	bottom: 15vh;
+	border-radius: 10px;
+	min-height: 60vh;
+	box-shadow: -6px 4px 10px 5px;
+	text-align: center;
+	margin: 30px 10px;
+	max-width: 40%;
+	opacity: 0;
+	display: inline-block;
+	transition: 1s;
+}
+.informative-4{
+	position: relative;
+	left: 7vw;
+	bottom:  10vh;
+	border-radius: 10px;
+	min-height: 50vh;
+	box-shadow: 10px 4px 10px 5px;
+	text-align: center;
+	margin: 30px 10px;
+	min-width: 55vh;
+	max-width: 60vh;
+	opacity: 0;
+	display: inline-block;	
+	transition: 1s;
+}
+
+.informative-1 p{
+	margin-top: 20px;
+	font-size: 30px;
+	font-weight: 20px;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+.informative-2 p{
+	text-align: left;
+	font-size: 30px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.informative-3 li{
+	font-weight: 20px;
+	font-size: 30px;
+	text-align: left;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 3vw;
+	list-style: none;
+}
+.informative-4 li{
+	list-style: none;
+	text-align: left;
+	font-size: 30px;
+	padding-top: 40px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.informative-1:hover{
+	box-shadow: -6px 4px 10px 5px grey;
+	min-height: ;
+	min-width:;
+}
+
+.informative-2:hover{
+	box-shadow: 10px 4px 10px 5px grey;
+}
+
+.informative-3:hover{
+	box-shadow: -6px 4px 10px 5px grey;
+}
+
+.informative-4:hover{
+	box-shadow: 10px 4px 10px 5px grey;
+}
+
+
+.content-below {
+	min-height: 100vh;
+	background-color: lightgrey;
+}
+}
+
+@media only screen and (max-width: 999px){
+.content-header {
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	background-image:
+		linear-gradient(
+			rgba(255, 255, 255, 1),
+			rgba(200, 200, 200, 0.5),
+			rgba(255, 255, 255, 1)
+		),
+		url(../imagini/imagine.jpg);
+	background-size: cover;
+	min-height: 90vh;
+  	line-height: 90vh;
+  	text-align: center;
+
+}
+.intro{
+	font-size: 50px;
+	display: inline-block;
+}
+
+.buttons{
+	position: absolute;
+}
+
+#text {
+	color: white;
+}
+#cursor {
+	display: inline-block;
+	width: 2px;
+	height: 50px;
+	background-color: white;
+	animation: blink .75s step-end infinite;
+}
+
+.title{
+	font-size: 50px;
+	margin-top: 40px;	
+	font-family: 'Oleo Script', cursive;
+}
+
+.content-center{
+	margin-top: 0px;
+	background-color: rgba(255, 255, 255, 0.75);
+	min-height: 120vh;
+}
+
+.content-center p {
+	font-family: 'Tapestry', cursive;
+	font-size: 15px;
+}
+
+.informative-1{
+	border-radius: 10px;
+	box-shadow: 10px 4px 10px 5px;
+	text-align: center;
+	display:block;
+	margin: 3vh;
+}
+
+.informative-2{
+	border-radius: 10px;
+	box-shadow: 10px 4px 10px 5px;
+	text-align: center;
+	display:block;	
+	margin: 3vh;
+}
+
+.informative-3{
+	border-radius: 10px;
+	box-shadow: 10px 4px 10px 5px;
+	text-align: center;
+	display:block;	
+	margin: 3vh;
+}
+.informative-4{
+	border-radius: 10px;
+	box-shadow: 10px 4px 10px 5px;
+	text-align: center;
+	display:block;	
+	margin: 3vh;
+}
+
+.informative-1 p{
+	margin-top: 20px;
+	font-size: 30px;
+	font-weight: 20px;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+.informative-2 p{
+	text-align: left;
+	font-size: 30px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.informative-3 li{
+	font-weight: 20px;
+	font-size: 30px;
+	text-align: left;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 3vw;
+	list-style: none;
+}
+.informative-4 p{
+	font-size: 30px;
+	padding-top: 40px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+}
+
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: white; 
+	}
+}
+
+@keyframes appear-left{
+	0% {
+		left: -40vw;
+	}
+
+	100%{
+		left: 5vw;
+	}
+}
+@keyframes appear-bottom{
+	0% {
+		top: 40vh;
+	}
+
+	100%{
+		top: 2vh;
+	}
+}
